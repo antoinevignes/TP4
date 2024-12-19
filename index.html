@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TP4 - Geolocalisation</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <script type="module" src="js/main.js" defer></script>
+  </head>
+  <body>
+    <form>
+      <button type="button" id="geo-btn">Me géolocaliser</button>
+
+      <label>Chercher des cinémas proches d'une adresse</label>
+      <input type="search" placeholder="L'adresse recherchée" />
+      <label>Distance en km</label>
+      <input type="range" id="distance-range" value="10" min="1" max="100" />
+      <span id="distance-value">10 km</span>
+      <input type="submit" value="Rechercher" id="searchBtn" />
+    </form>
+  </body>
+</html>
